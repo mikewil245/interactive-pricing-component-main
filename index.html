@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <div class="background-container">
+      <header>
+        <h1>Simple, Traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required.</p>
+      </header>
+      <div class="center-wrapper">
+        <div class="container">
+          <div class="flex-group">
+            <h3>100K PAGEVIEWS</h3>
+
+            <div class="pricing-container">
+              <div class="pricing">$16.00</div>
+              <span class="month-to-year"> / month</span>
+            </div>
+          </div>
+          <div class="slider-container">
+            <!--you should set the slider's `min` and `max` attributes to correspond to the indices of the array. Since the array has 5 values, the indices range from 0 to 4..-->
+            <input
+              type="range"
+              class="slider"
+              name="volume"
+              min="0"
+              max="4"
+              step="1"
+            />
+          </div>
+          <div class="billing">
+            <div class="monthly-billing">Monthly Billing</div>
+            <label class="billing-toggle-container">
+              <input type="checkbox" class="billing-toggle-checkbox" />
+              <span class="billing-toggle-button"></span>
+            </label>
+            <div class="yearly-billing">
+              Yearly Billing<span class="billing-discount">25% discount</span>
+            </div>
+          </div>
+
+          <div class="horizontal-line"></div>
+          <div class="flex-me">
+            <ul class="list">
+              <li>Unlimited websites</li>
+              <li>100% data ownership</li>
+              <li>Email reports</li>
+            </ul>
+            <button class="start-trial">Start my trial</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!--
+ 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+-- Feel free to remove these styles or customise in your own stylesheet 👍 --
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+-->

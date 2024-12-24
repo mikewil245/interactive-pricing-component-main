@@ -1,0 +1,104 @@
+:root {
+  --font-primary: "Manrope", sans-serif;
+  --font-weight-semi-bold: 600;
+  --font-weight-extra-bold: 800;
+  --font-size-para-intro: 0.938rem;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../font/static/Manrope-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../font/static/Manrope-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+header h1 {
+  color: var(--dark-desaturated-blue-text-cta-background);
+  font-family: var(--font-primary);
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-extra-bold);
+  line-height: 1.69rem;
+  letter-spacing: 0rem;
+}
+
+header p {
+  color: var(--grayish-blue-text);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-para-intro);
+  font-weight: var(--font-weight-semi-bold);
+  line-height: 1.44rem;
+  letter-spacing: 0rem;
+}
+
+.flex-group h3 {
+  color: var(--grayish-blue-text);
+  font-family: var(--font-primary);
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-extra-bold);
+  line-height: 1.19rem;
+  letter-spacing: 0.13rem;
+  text-align: center;
+}
+
+.pricing-container .pricing {
+  color: var(--dark-desaturated-blue-text-cta-background);
+  font-family: var(--font-primary);
+  font-size: 2rem;
+  font-weight: var(--font-weight-extra-bold);
+  line-height: 2.75rem;
+  letter-spacing: -0.05rem;
+}
+
+.pricing-container span {
+  color: var(--grayish-blue-text);
+  font-family: var(--font-primary);
+  font-size: 0.88rem;
+  font-weight: var(--font-weight-semi-bold);
+  line-height: 1.19rem;
+  letter-spacing: 0rem;
+}
+
+.billing .monthly-billing,
+.yearly-billing {
+  color: var(--grayish-blue-text);
+  font-family: var(--font-primary);
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-semi-bold);
+  line-height: 1rem;
+  letter-spacing: 0rem;
+}
+
+.billing .yearly-billing .billing-discount {
+  color: var(--light-red-discount-text);
+  font-family: var(--font-primary);
+  font-size: 0.63rem;
+  font-weight: var(--font-weight-extra-bold);
+  line-height: 0.88rem;
+  letter-spacing: 0rem;
+  text-align: center;
+}
+
+.list li {
+  color: var(--grayish-blue-text);
+  font-family: var(--font-primary);
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-semi-bold);
+  line-height: 1rem;
+  letter-spacing: 0rem;
+}
+
+.container .start-trial {
+  color: rgb(190, 205, 255);
+  font-family: var(--font-primary);
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-extra-bold);
+  line-height: 1rem;
+  letter-spacing: 0rem;
+}

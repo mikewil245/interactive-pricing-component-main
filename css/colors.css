@@ -1,0 +1,16 @@
+:root {
+  /* Primary Colors */
+  --soft-cyan-full-slider-bar: #a5f3eb;
+  --strong-cyan-slider-background: #10d5c2;
+  --light-grayish-red-discount-background: rgb(254, 236, 231);
+  --light-red-discount-text: rgb(255, 140, 102);
+  --pale-blue-cta-text: rgb(189, 204, 255);
+
+  /* Neutral Colors */
+  --white-pricing-component-background: rgb(255, 255, 255);
+  --very-pale-blue-main-background: rgb(250, 251, 255);
+  --light-grayish-blue-empty-slider-bar: rgb(234, 238, 251);
+  --light-grayish-blue-toggle-background: rgb(205, 215, 238);
+  --grayish-blue-text: rgb(133, 143, 173);
+  --dark-desaturated-blue-text-cta-background: rgb(41, 51, 86);
+}
